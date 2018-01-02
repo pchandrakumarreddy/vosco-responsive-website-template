@@ -116,6 +116,10 @@
 
 /********* about section *****/
 
+#about {
+    padding-bottom: 60px;
+}
+
 #about-bg-diagonal {
     width: 60%;
     height: 700px;
@@ -154,4 +158,32 @@
 
 #about #content-box-inner #about-desc p {
     margin-bottom: 30px;
+}
+
+
+/********   work  ********/
+
+.row.no-gutters [class *=col-] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-wrapper {
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    transition: all 1.5s ease-in;
+}
+
+.img-wrapper img:hover {
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+
+/*****  team  ******/
+
+#team {
+    padding-top: 60px;
 }
