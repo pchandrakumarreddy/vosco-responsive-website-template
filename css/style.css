@@ -187,3 +187,52 @@
 #team {
     padding-top: 60px;
 }
+
+.team-member {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.team-member-info {
+    padding: 10px 0 10px 0;
+}
+
+h4.team-member-name {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+
+h4.team-member-designation {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #34c6d3;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+ul.social-list {
+    padding: 0;
+}
+
+ul.social-list li {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    margin-top: 10px;
+}
+
+.social-icon i {
+    font-style: 17px;
+}
+
+.icon-gray i {
+    color: gray;
+}
+
+.icon-gray i:hover {
+    color: #34c6d3;
+}

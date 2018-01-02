@@ -7,4 +7,11 @@ $(document).ready(function() {
             enabled: true
         }
     });
+    $(".team-members").owlCarousel({
+        items: 3,
+        loop: true,
+        autoplay: true,
+        smartSpeed: 300,
+        autoplayHoverPause: true
+    });
 });
