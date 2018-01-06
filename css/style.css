@@ -236,3 +236,133 @@ ul.social-list li {
 .icon-gray i:hover {
     color: #34c6d3;
 }
+
+
+/******* testimonials ******/
+
+#testimonials {
+    padding-top: 30px;
+}
+
+#testimonials .content-title {
+    padding-top: 40px;
+}
+
+#testimonial-cover {
+    background-image: url("../img/bg-testimonials.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#customers-testimonials {
+    padding: 0 0 50px 0;
+}
+
+.testimonial {
+    padding: 0 0 30px 0;
+}
+
+.testimonial img {
+    max-width: 126px;
+    margin: 0 auto;
+}
+
+.testimonial blockquote {
+    border: 0;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    font-style: italic;
+    font-size: 17px;
+    padding: 6px 30px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.testimonial blockquote::before,
+.testimonial blockquote::after {
+    font-size: 80px;
+    font-style: normal;
+    width: 30px;
+    height: 30px;
+    line-height: 1px;
+    position: absolute;
+}
+
+.testimonial blockquote::before {
+    content: "\201C";
+    top: 0;
+    left: 0;
+}
+
+.testimonial blockquote::after {
+    content: "\201D";
+    border: 0;
+    right: 0;
+}
+
+.testimonial p strong {
+    display: block;
+}
+
+
+/*****pricing *****/
+
+.pricing-box {
+    border: 3px solid #34c6d3;
+    padding: 50px 0;
+    margin: 40px 0;
+}
+
+h3.pricing-title {
+    padding: 7px 15px;
+    text-transform: uppercase;
+    background: #34c6d3;
+    color: #fff;
+    margin: 0 0 30px 0;
+    font-size: 14px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+h3.pricing-value {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+h3.pricing-value sup {
+    font-size: 28px;
+    vertical-align: super;
+    font-weight: normal;
+}
+
+ul.pricing-desc {
+    list-style: none;
+    padding-left: 0;
+    margin: 30px 0 60px 0;
+}
+
+ul.pricing-desc li p {
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 6px 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.pricing-lg {
+    padding: 90px 0;
+    margin: 0;
+    background: #34c6d3;
+}
+
+.pricing-lg h3.pricing-title {
+    color: #34c6d3;
+    background: #fff;
+}
+
+.pricing-lg ul.pricing-desc li p {
+    color: #fff;
+    letter-spacing: 1px;
+}

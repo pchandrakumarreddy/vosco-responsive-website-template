@@ -14,4 +14,13 @@ $(document).ready(function() {
         smartSpeed: 300,
         autoplayHoverPause: true
     });
+    $("#customers-testimonials").owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        smartSpeed: 300,
+        autoplayHoverPause: true
+    });
+
+
 });
