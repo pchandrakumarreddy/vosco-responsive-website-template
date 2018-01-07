@@ -366,3 +366,62 @@ ul.pricing-desc li p {
     color: #fff;
     letter-spacing: 1px;
 }
+
+
+/******* stats  ******/
+
+#stats {
+    background-image: url('../img/bg-stats.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#stats-cover {
+    background: rgb(0, 0, 0, 0.8);
+}
+
+#stats-cover .content-box {
+    padding-top: 60px;
+}
+
+#stats-cover .row {
+    padding-bottom: 30px;
+}
+
+.stats-item {
+    padding: 100px 0;
+}
+
+.stats-item i {
+    color: #34c6d3;
+}
+
+.stats-item h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.stats-item p {
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+
+/*******clients  ******/
+
+#client {
+    margin: 60px 0;
+}
+
+.client {
+    padding: 10px 0;
+}

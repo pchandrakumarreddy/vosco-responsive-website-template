@@ -21,6 +21,16 @@ $(document).ready(function() {
         smartSpeed: 300,
         autoplayHoverPause: true
     });
-
+    $("#clients-list").owlCarousel({
+        items: 6,
+        loop: true,
+        autoplay: true,
+        smartSpeed: 300,
+        autoplayHoverPause: true
+    });
+    $('.counter').counterUp({
+        delay: 10,
+        time: 2500
+    });
 
 });
