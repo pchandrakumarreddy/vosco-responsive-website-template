@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Vosco</title>
+    <title>Vesco</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <!--css  -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
@@ -18,29 +18,83 @@
     <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="68">
     <!--body -->
+    <header>
+        <nav class="navbar  navbar-fixed-top">
+            <div class="container">
+                <div class="vesco-nav-wrapper">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#vesco-menu">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                        <a href="#home" class="navbar-brand">
+                            <img src="img/logo.png" alt="logo" class="img-responsive">
+                        </a>
+                    </div>
+                    <div id="vesco-menu" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#home" class="smooth-scroll">HOME</a>
+                            </li>
+                            <li>
+                                <a href="#services" class="smooth-scroll">SERVICES</a>
+                            </li>
+                            <li>
+                                <a href="#about" class="smooth-scroll">ABOUT</a>
+                            </li>
+                            <li>
+                                <a href="#work" class="smooth-scroll">WORK</a>
+                            </li>
+                            <li>
+                                <a href="#team" class="smooth-scroll">TEAM</a>
+                            </li>
+                            <li>
+                                <a href="#testimonials" class="smooth-scroll">TESTIMONIALS</a>
+                            </li>
+                            <li>
+                                <a href="#pricing" class="smooth-scroll">PRICING</a>
+                            </li>
+                            <li>
+                                <a href="#stats" class="smooth-scroll">STATS</a>
+                            </li>
+                            <li>
+                                <a href="#client" class="smooth-scroll">CLIENTS</a>
+                            </li>
+                            <li>
+                                <a href="#contact" class="smooth-scroll">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
     <section id="home">
         <div id="home-cover" class="animated fadeIn">
             <div id="home-cover-content">
                 <div id="home-heading" class="animated zoomIn">
                     <h3>Welcome to <br> the responsive website!</h3>
                 </div>
-                <div id="home-button" class="animated zoomIn"><a href="#work" class="btn btn-lg btn-generic btn-white" title="our work">view our work</a></div>
+                <div id="home-button" class="animated zoomIn"><a href="#work" class="smooth-scroll btn btn-lg btn-generic btn-white" title="our work">view our work</a></div>
             </div>
         </div>
     </section>
     <section id="services">
-        <div class="content-box wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.5s">
+        <div class="content-box wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             <div class="content-title">
                 <h3>services</h3>
                 <div class="content-title-underline"></div>
             </div>
         </div>
         <div class="container">
-            <div class="row wow animated fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s">
+            <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                 <div class="col-md-4">
                     <div class="service-item">
                         <div class="service-item-icon"><i class="fa fa-paint-brush fa-3x"></i></div>
@@ -74,7 +128,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row fadeInUp wow animated" data-wow-duration="2s" data-wow-delay="0.5s">
+                <div class="row fadeInUp wow animated" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="col-md-4">
                         <div class="service-item">
                             <div class="service-item-icon"><i class="fa fa-search fa-3x"></i></div>
@@ -120,7 +174,7 @@
                     <div id="about-content-box">
                         <div id="content-box-outer">
                             <div id="content-box-inner">
-                                <div class="content-box wow animated fadeInDown" data-wow-duration="2s" data-wow-delay="0.5s">
+                                <div class="content-box wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
                                     <div class="content-title">
                                         <h3>About</h3>
                                         <div class="content-title-underline"></div>
@@ -129,8 +183,8 @@
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat vitae totam numquam aut minus maxime reiciendis? Perferendis eaque minima dignissimos quae dicta, explicabo illum ratione cupiditate hic, itaque,
                                             quo molestiae.</p>
                                     </div>
-                                    <div id="about-btn" class="wow animated fadeInLeft" data-wow-duration="2s" data-wow-delay="1s">
-                                        <a href="#work" class="btn btn-lg btn-generic btn-blue">Our work</a>
+                                    <div id="about-btn" class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                                        <a href="#work" class="smooth-scroll btn btn-lg btn-generic btn-blue">Our work</a>
                                     </div>
                                 </div>
                             </div>
@@ -140,14 +194,14 @@
             </div>
     </section>
     <section id="work">
-        <div class="content-box wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.5s">
+        <div class="content-box wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             <div class="content-title">
                 <h3>Our Work</h3>
                 <div class="content-title-underline"></div>
             </div>
         </div>
         <div class="container-fluid">
-            <div class="row no-gutters wow animated fadeInUp " data-wow-duration="2s" data-wow-delay="0.5s">
+            <div class="row no-gutters wow animated fadeInUp " data-wow-duration="1s" data-wow-delay="0.5s">
                 <div class="col-md-3">
                     <div class="img-wrapper">
                         <a href="img/work/1.jpg" title="work description goes here">
@@ -209,14 +263,14 @@
         </div>
     </section>
     <section id="team">
-        <div class="content-box wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.5s">
+        <div class="content-box wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             <div class="content-title">
                 <h3>Team</h3>
                 <div class="content-title-underline"></div>
             </div>
         </div>
         <div class="container ">
-            <div class="row wow animated fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s">
+            <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                 <div class="col-md-12">
                     <div class="team-members owl-carousel owl-theme">
                         <div class="team-member">
@@ -292,13 +346,13 @@
     </section>
     <section id="testimonials">
         <div id="testimonial-cover">
-            <div class="content-box content-title-white wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.5s">
+            <div class="content-box content-title-white wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
                 <div class="content-title">
                     <h3 class="white">What our customers say</h3>
                     <div class="content-title-underline"></div>
                 </div>
                 <div class="container">
-                    <div class="row wow animated bounceInDown" data-wow-duration="2s" data-wow-delay="0.5s">
+                    <div class="row wow animated bounceInDown" data-wow-duration="1s" data-wow-delay="0.5s">
                         <div class="col-md-12">
                             <div id="customers-testimonials" class="owl-carousel text-center owl-theme ">
                                 <div class="testimonial ">
@@ -339,15 +393,15 @@
         </div>
     </section>
     <section id="pricing">
-        <div class="content-box wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.5s">
+        <div class="content-box wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             <div class="content-title">
                 <h3>Our prices</h3>
                 <div class="content-title-underline"></div>
             </div>
         </div>
         <div class="container">
-            <div class="row wow animated fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s">
-                <div class="col-md-4 wow animated zoomInUp" data-wow-duration="2s" data-wow-delay="0.5s">
+            <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="col-md-4 wow animated zoomInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="pricing-box text-center">
                         <h3 class="pricing-title">Basic</h3>
                         <h3 class="pricing-value">49<sup>$</sup></h3>
@@ -371,7 +425,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="pricing-box pricing-lg text-center wow animated bounceInUp" data-wow-duration="2s" data-wow-delay="0.5s">
+                    <div class="pricing-box pricing-lg text-center wow animated bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                         <h3 class="pricing-title">Enterprise</h3>
                         <h3 class="pricing-value">89<sup>$</sup></h3>
                         <ul class="pricing-desc">
@@ -394,7 +448,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="pricing-box text-center wow animated zoomInUp" data-wow-duration="2s" data-wow-delay="0.5s">
+                    <div class="pricing-box text-center wow animated zoomInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                         <h3 class="pricing-title">Standard</h3>
                         <h3 class="pricing-value">69<sup>$</sup></h3>
                         <ul class="pricing-desc">
@@ -421,14 +475,14 @@
     </section>
     <section id="stats">
         <div id="stats-cover">
-            <div class="content-box wow fadeInDown " data-wow-duration="2s" data-wow-delay="0.5s">
+            <div class="content-box wow fadeInDown " data-wow-duration="1s" data-wow-delay="0.5s">
                 <div class="content-title">
                     <h3 class="white">We never stop improving</h3>
                     <div class="content-title-underline"></div>
                 </div>
             </div>
             <div class="container">
-                <div class="row wow animated bounceInLeft text-center" data-wow-duration="2s" data-wow-delay="0.5s">
+                <div class="row wow animated bounceInLeft text-center" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="col-md-3">
                         <div class="stats-item">
                             <i class="fa fa-cloud-download fa-5x"></i>
@@ -462,14 +516,14 @@
         </div>
     </section>
     <section id="client">
-        <div class="content-box wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.5s">
+        <div class="content-box wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             <div class="content-title">
                 <h3>Our clients</h3>
                 <div class="content-title-underline"></div>
             </div>
         </div>
         <div class="container">
-            <div class="row wow animated bounceInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
+            <div class="row wow animated bounceInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
                 <div class="col-md-12">
                     <div id="clients-list" class="owl-carousel owl-theme">
                         <div class="client">
@@ -557,19 +611,20 @@
                     <div class="col-md-6">
                         <div id="footer-menu">
                             <ul>
-                                <li><a href="#home">Home</a>/</li>
-                                <li><a href="#services">Services</a>/</li>
-                                <li><a href="#work">Work</a>/</li>
-                                <li><a href="#team">Team</a>/</li>
-                                <li><a href="#testimonials">Testimonials</a>/</li>
-                                <li><a href="#pricing">Pricing</a>/</li>
-                                <li><a href="#stats">Stats</a></li>
+                                <li><a href="#home" class="smooth-scroll">Home</a>/</li>
+                                <li><a href="#services" class="smooth-scroll">Services</a>/</li>
+                                <li><a href="#work" class="smooth-scroll">Work</a>/</li>
+                                <li><a href="#team" class="smooth-scroll">Team</a>/</li>
+                                <li><a href="#testimonials" class="smooth-scroll">Testimonials</a>/</li>
+                                <li><a href="#pricing" class="smooth-scroll">Pricing</a>/</li>
+                                <li><a href="#stats" class="smooth-scroll">Stats</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <a href="#home" id="back-to-top" class="btn btn-sm btn-blue btn-back-to-top smooth-scroll"><i class="fa fa-angle-up"></i></a>
     </footer>
     <!-- js-->
     <script src="js/jquery.js"></script>
@@ -579,6 +634,7 @@
     <script src="js/owl-carousel/owl.carousel.min.js"></script>
     <script src="js/counter-up/jquery.waypoints.min.js"></script>
     <script src="js/counter-up/counter-up.js"></script>
+    <script src="js/easing/jquery.easing.1.3.js"></script>
     <script src="js/main.js"></script>
 </body>
 

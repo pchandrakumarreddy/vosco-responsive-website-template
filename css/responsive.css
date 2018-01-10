@@ -1,0 +1,44 @@
+/* Large devices Desktops (≥1200px) */
+
+@media (min-width:1200px) {
+    /* everything is ok */
+}
+
+
+/* Medium devices Desktops (≥992px) */
+
+@media (min-width:992px) and (max-width:1199px) {
+    #home h3 {
+        color: green;
+    }
+}
+
+
+/* Small devices Tablets (≥768px) */
+
+@media (min-width:768px) and (max-width:991px) {
+    #home h3 {
+        color: blue;
+    }
+}
+
+
+/* Extra small devices Phones (<768px) */
+
+@media (max-width:767px) {
+    #home h3 {
+        color: yellow;
+    }
+}
+
+@media (max-width:448px) {
+    #home h3 {
+        color: pink;
+    }
+}
+
+@media (max-width:320px) {
+    #home h3 {
+        color: rgb(255, 0, 200);
+    }
+}

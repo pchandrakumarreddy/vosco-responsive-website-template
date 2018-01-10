@@ -77,6 +77,16 @@
     background-color: #34c6d3;
 }
 
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 5px 15px;
+    font-size: 15px;
+    display: none;
+    border-radius: 0;
+}
+
 
 /******** service section *********/
 
@@ -522,5 +532,64 @@ form .form-control {
 }
 
 #footer-menu ul li a:hover {
+    color: #34c6d3;
+}
+
+
+/********** navigation *********/
+
+.navbar {
+    padding: 20px 0;
+    transition: all 0.5s ease-in;
+}
+
+.vesco-nav-inverse {
+    background: rgb(0, 0, 0, 0.7);
+    padding: 7px 0;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav>li>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.navbar-nav>li>a:hover,
+.navbar-nav {
+    background: none;
+    color: #34c6d3;
+}
+
+.navbar-nav>li>a:focus,
+.navbar-nav>li>a:active {
+    background: none;
+}
+
+.navbar-fixed-top {
+    border-width: 0;
+}
+
+.navbar-toggle {
+    background: rgb(0, 0, 0, 0.1);
+    border-radius: 0;
+    border-color: #fff;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-collapse {
+    max-height: none !important;
+}
+
+#vesco-menu ul li.active a {
     color: #34c6d3;
 }

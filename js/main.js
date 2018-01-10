@@ -32,5 +32,20 @@ $(document).ready(function() {
         delay: 10,
         time: 2500
     });
-
+    $(window).scroll(function() {
+        if ($(window).scrollTop() < 60) {
+            $("nav").removeClass("vesco-nav-inverse");
+            $("#back-to-top").fadeOut();
+        } else {
+            $("nav").addClass("vesco-nav-inverse");
+            $("#back-to-top").fadeIn();
+        }
+    });
+    $("a.smooth-scroll").click(function(event) {
+        event.preventDefault();
+        let section = $(this).attr("href");
+        $("html,body").animate({
+            scrollTop: $(section).offset().top - 64
+        }, 1250, "easeInOutExpo");
+    });
 });
