@@ -3,7 +3,7 @@
     height: 100%;
     background: url('../img/bg-home.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     background-attachment: fixed;
 }
@@ -184,10 +184,18 @@
 
 .img-wrapper img {
     transition: all 1.5s ease-in;
+    -webkit-transition: all 1.5s ease-in;
+    -o-transition: all 1.5s ease-in;
+    -moz-transition: all 1.5s ease-in;
+    -ms-transition: all 1.5s ease-in;
 }
 
 .img-wrapper img:hover {
     transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
     cursor: zoom-in;
 }
 
@@ -267,7 +275,7 @@ ul.social-list li {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
 }
 
 #customers-testimonials {
@@ -487,6 +495,10 @@ footer {
 form .form-control {
     background: transparent;
     border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;
+    -ms-border-radius: 0;
     border-color: #fff;
     padding: 8px 16px;
     margin-bottom: 20px;

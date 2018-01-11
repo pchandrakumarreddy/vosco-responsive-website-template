@@ -12,7 +12,21 @@ $(document).ready(function() {
         loop: true,
         autoplay: true,
         smartSpeed: 300,
-        autoplayHoverPause: true
+        autoplayHoverPause: true,
+        responsive: {
+            // breakpoint from 0 up
+            0: {
+                items: 1
+            },
+            // breakpoint from 480 up
+            480: {
+                items: 2
+            },
+            // breakpoint from 768 up
+            768: {
+                items: 3
+            }
+        }
     });
     $("#customers-testimonials").owlCarousel({
         items: 1,
@@ -26,7 +40,21 @@ $(document).ready(function() {
         loop: true,
         autoplay: true,
         smartSpeed: 300,
-        autoplayHoverPause: true
+        autoplayHoverPause: true,
+        responsive: {
+            // breakpoint from 0 up
+            0: {
+                items: 1
+            },
+            // breakpoint from 480 up
+            480: {
+                items: 3
+            },
+            // breakpoint from 768 up
+            768: {
+                items: 5
+            }
+        }
     });
     $('.counter').counterUp({
         delay: 10,
@@ -48,4 +76,7 @@ $(document).ready(function() {
             scrollTop: $(section).offset().top - 64
         }, 1250, "easeInOutExpo");
     });
+    $(".navbar-collapse ul li a").on("click touch", function() {
+        $(".navbar-toggle").click();
+    })
 });
